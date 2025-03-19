@@ -18,7 +18,8 @@ def main():
     print("---------- Word Count -----------")
     print(f"Found {num_words} total words")
     print("------ Character Count ----------")
-    print(char_count)
-    print(sorted_char_counts)
+    for letter in sorted_char_counts:
+        print(f"{letter['char']}: {letter['count']}")
+    print("============== END ==============")
 
 main()
