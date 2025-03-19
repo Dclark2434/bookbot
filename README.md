@@ -2,7 +2,7 @@
  
 BookBot is a program that counts words in texts as well as characters and their individual usage.
 
-Usage: python3 main.py <path_to_text_file>
+Usage: python3 main.py <path_to_book>
 
 Example:
 
