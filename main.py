@@ -11,5 +11,6 @@ def main():
     num_words = get_word_count(contents)
     char_count = get_character_count(contents)
     print(f"{num_words} words found in the document")
+    print(char_count)
 
 main()
