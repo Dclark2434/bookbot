@@ -13,6 +13,8 @@ def get_character_count(contents):
             chars[lowercase_char] = 1
     return chars
 
-def get_sorted_list(get_character_count(contents))
-    return chars.sort()
+def get_sorted_list(chars):
+    list1 = list(chars)
+    sorted_list = sorted(list1, reverse=True)
+    return sorted_list
     
